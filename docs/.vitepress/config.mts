@@ -9,11 +9,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'Yearbook', link: '/yearbook/2020', activeMatch: '/yearbook/'}
     ],
 
     sidebar: { 
-	    'Example': [{
+        'Example': [{
             text: 'Examples',
             items: [
               { text: 'Markdown Examples', link: '/markdown-examples' },
@@ -21,15 +22,14 @@ export default defineConfig({
             ]
         }],
 
-        'Yearbook': [{
-            text: 'Yearbook',
+        '/yearbook/': {
+            base: '/yearbook/',
             items: [
-                {text: 'Yearbook', link: '/yearbook/'},
-                {text: '2020-2029', link: '/yearbook/2020.md'},
-                {text: '2010-2019', link: '/yearbook/2010.md'},
-                {text: '2000-2009', link: '/yearbook/2000.md'},
+                {text: '2020-2029', link: '2020'},
+                {text: '2010-2019', link: '2010'},
+                {text: '2000-2009', link: '2000'}
             ]
-        }]
+        }
     },
 
 
