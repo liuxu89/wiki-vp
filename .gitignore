@@ -129,4 +129,5 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-docs/.vitepress
+docs/.vitepress/cache
+docs/.vitepress/dist
