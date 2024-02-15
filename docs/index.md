@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: brand
+      text: YearBook
+      link: /yearbook/2020
 
 features:
   - title: Feature A
