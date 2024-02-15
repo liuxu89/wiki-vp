@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "wiki-vp",
-  lang: 'zh-CN'
+  lang: 'zh-CN',
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -30,7 +30,7 @@ export default defineConfig({
                 {text: '2000-2009', link: '/yearbook/2000.md'},
             ]
         }]
-    }
+    },
 
 
     socialLinks: [
